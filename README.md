@@ -15,7 +15,7 @@ npm run dev
 
 Open the Local URL printed by Vite (normally `http://localhost:5173`). Keep that terminal open. Stop the server with **Ctrl+C**. If PowerShell blocks `npm.ps1` under your execution policy, use `npm.cmd ci` and `npm.cmd run dev`; no policy change is necessary.
 
-Dependencies are already installed in the delivered workspace. `npm ci` is for a clean checkout or reinstall. Node 24 is recorded in `.node-version`; package requirements are also recorded in `package.json`. The setup follows the current [Vite guide](https://vite.dev/guide/), [React Router guide](https://reactrouter.com/start/declarative/installation), and [Lucide React guide](https://lucide.dev/guide/react/getting-started).
+Run `npm ci` after cloning or when reinstalling dependencies. Node 24 is recorded in `.node-version`; package requirements are also recorded in `package.json`. The setup follows the current [Vite guide](https://vite.dev/guide/), [React Router guide](https://reactrouter.com/start/declarative/installation), and [Lucide React guide](https://lucide.dev/guide/react/getting-started).
 
 ## Checks and production preview
 
@@ -70,7 +70,7 @@ See the [professional redesign report](docs/PROFESSIONAL-REDESIGN.md) for the cu
 
 This is a static Vite SPA. After deployment is separately approved, use **`npm run build`** with **`dist`** as the output directory and **Node 24**. The included `public/_redirects` handles direct nested routes on Cloudflare Pages. The client 404 is a designed page, not a server HTTP 404 response. See the [official React Pages guide](https://developers.cloudflare.com/pages/framework-guides/deploy-a-react-site/) and [SPA serving behavior](https://developers.cloudflare.com/pages/configuration/serving-pages/).
 
-No deployment, GitHub publication, paid resource, or service purchase has been performed.
+The source is hosted at [Benjamin-Isah/CAV-Wiki](https://github.com/Benjamin-Isah/CAV-Wiki). The website has not been deployed, and no paid resources or services have been purchased.
 
 ## Rights and independence
 
